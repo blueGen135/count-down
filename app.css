@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background: url('new-year.jpg');
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    color:crimson
+}
+h1 {
+	font-size: 6rem;
+	margin-top: -10rem;
+	text-shadow: 3px 3px 5px rgba(0,0,0.5);
+}
+.countdown-container {
+	display: flex;
+	background: rgba(0,0,0,.4);
+	padding: 22px;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: bold;
+    margin:0 2rem;
+    width: 150px;
+}
+.countdown-el {
+    text-align: center;
+  }
+  .countdown-el span {
+    font-size: 1.5rem;
+  }
